@@ -1,1 +1,9 @@
 .cache
+Testing
+build
+log
+
+*.log.*
+*-asciinema
+*.pid
+*-profile
