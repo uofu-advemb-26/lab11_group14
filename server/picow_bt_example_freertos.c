@@ -60,6 +60,7 @@ void main_task(__unused void *params)
 int main()
 {
     stdio_init_all();
+    sleep_ms(5000);
     TaskHandle_t task;
     xTaskCreate(main_task, "TestMainThread", 1024, NULL, TEST_TASK_PRIORITY, &task);
     vTaskStartScheduler();

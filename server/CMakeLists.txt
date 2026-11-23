@@ -27,8 +27,8 @@ pico_set_program_version(lab11_server "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB.
 # These are mutually exclusive, only set one.
-pico_enable_stdio_uart(lab11_server 0)
-pico_enable_stdio_usb(lab11_server 1)
+pico_enable_stdio_uart(lab11_server 1)
+pico_enable_stdio_usb(lab11_server 0)
 
 pico_add_extra_outputs(lab11_server)
 
